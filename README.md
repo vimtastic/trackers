@@ -13,4 +13,4 @@ Do _NOT_ remove a tracker. Simply set its status to be `inactive`.
 
 ## Renaming a tracker
 
-Create a new tracker, and set the old tracker's `product [ { "previous_id": } ]` to point to the ID of the new tracker. Do _NOT_ remove the old tracker, simply set its status to be `inactive`.
+Create a new tracker, and set its `product [ { "previous_id": } ]` to point to the ID of the old tracker. Set the status of the old tracker to be `inactive`. Do _NOT_ delete the old tracker.
