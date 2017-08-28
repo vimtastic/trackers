@@ -1,2 +1,55 @@
 {
+  "manufacturer": [
+    {
+      "id": 1,
+      "short_name": "FitBit",
+      "long_name": "FitBit"
+    }
+  ],
+  "manufacturer_product": [
+    {
+      "manufacturer_id": 1,
+      "product_id": 1
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "short_name": "",
+      "long_name": "",
+      "previous_id": null
+    }
+  ],
+  "product_productfamily": [
+    {
+      "product_id": 1,
+      "productfamily_id": 1
+    }
+  ],
+  "productfamily": [
+    {
+      "id": 1
+      "family": "FitBit"
+    }
+  ],
+  "product_producttype": [
+    {
+      "product_id": 1,
+      "producttype_id": 1
+    }
+  ],
+  "producttype": [
+    {
+      "id": 1,
+      "type": "wearable"
+    },
+    {
+      "id": 2,
+      "type": "band"
+    },
+    {
+      "id": 3,
+      "type": "app"
+    }
+  ]
 }
