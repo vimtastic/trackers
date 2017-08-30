@@ -15,8 +15,8 @@
   "product": [
     {
       "id": 1,
-      "short_name": "",
-      "long_name": "",
+      "short_name": "Ionic",
+      "long_name": "Ionic",
       "previous_id": null
     }
   ],
@@ -41,15 +41,36 @@
   "producttype": [
     {
       "id": 1,
-      "type": "wearable"
+      "type": "band",
+      "producttypegroup_id": 1
     },
     {
       "id": 2,
-      "type": "band"
+      "type": "app",
+      "producttypegroup_id": 2
+    }
+  ],
+  "producttypegroup": [
+    {
+      "id": 1,
+      "name": "wearable",
+      "description": "..."
     },
     {
-      "id": 3,
-      "type": "app"
+      "id": 2,
+      "name": "software",
+      "description": "..."
+    }
+  ],
+  "product_function": [
+    {
+      "product_id": 1,
+      "function_id": 1
+    }
+  ],
+  "function": [
+    {
+      "id": 1
     }
   ]
 }
