@@ -70,7 +70,24 @@
   ],
   "function": [
     {
-      "id": 1
+      "id": 1,
+      "name": "heart rate",
+      "description": "..."
+    },
+    {
+      "id": 2,
+      "name": "heart rate",
+      "description": "..."
+    }
+  ],
+  "function_aka": [
+    {
+      "function_id": 1,
+      "aka": "heartrate"
+    },
+    {
+      "function_id": 1,
+      "aka": "BPM"
     }
   ]
 }
