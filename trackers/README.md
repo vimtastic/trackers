@@ -45,19 +45,19 @@ The format is basically tab-separated values. However, some fields can contain c
 
 | Field  | Explanation | Type | Examples | Incorrect examples |
 |--------|-------------|------|----------|--------------------|
-| ID     | Unique, sequential. | Int  | 123     | "123"<br>Twelve<br> 7 (leading or trailing space) |
-| PrevID | null or previous ID where a product or company has been replaced. | Int or null  | null | "123"<br>Twelve<br> 7 (leading or trailing space) |
-| Status | Active if the product is currently available. Inactive if not. | active or inactive | active | null |
-| DateCreated | Date of record creation (not of product creation). | ISO 8601 date string. | 2017-31-10 | 10/31/2017 |
-| DateUpdated | Date of record update (not of product update). | ISO 8601 date string. | 2017-31-10 | 10/31/2017 |
-| Parent | Parent company of `corp`. | String | null | "" |
-| Corp | Corporation selling the product. | String | Apple | 1 |
+| ID     | Unique, sequential. | Int  | `123`     | "123"<br>Twelve<br> 7 (leading or trailing space) |
+| PrevID | null or previous ID where a product or company has been replaced. | Int or null  | null | `"123"`<br>`Twelve`<br> `7` (leading or trailing space) |
+| Status | Active if the product is currently available. Inactive if not. | `active` or `inactive` | `active` | `null` |
+| DateCreated | Date of record creation (not of product creation). | ISO 8601 date string. | `2017-31-10` | `10/31/2017` |
+| DateUpdated | Date of record update (not of product update). | ISO 8601 date string. | `2017-31-10` | `10/31/2017` |
+| Parent | Parent company of `corp`. | String or `null` | `null` | `""` |
+| Corp | Corporation selling the product. | String | `Apple` | `1` |
 | Range |  |  |  |  |
 | Model |  |  |  |  |
 | Gen |  |  |  |  |
 | Classes |  |  |  |  |
 | SubClasses |  |  |  |  |
-| Functions | Comma-separated IDs referring to entries in `functions.tsv` | Comma-separated ints. | 1,2,3<br>null | 1, 2, 3 (do not insert spaces) |
+| Functions | Comma-separated IDs referring to entries in `functions.tsv` | Comma-separated ints or `null`. | `1,2,3`<br>`null` | `1, 2, 3` (do not insert spaces) |
 
 
 
