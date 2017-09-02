@@ -43,7 +43,8 @@ The format is basically tab-separated values. However, some fields can contain c
 ### Fields and types
 
 
-| Field  | Explanation | Type | Example | Incorrect example |
+| Field  | Explanation | Type | Examples | Incorrect examples |
+|--------|-------------|------|----------|--------------------|
 | ID     | Unique, sequential. | Int  | 123     | "123"<br>Twelve<br> 7 (leading or trailing space) |
 | PrevID | null or previous ID where a product or company has been replaced. | Int or null  | null | "123"<br>Twelve<br> 7 (leading or trailing space) |
 | Status | Active if the product is currently available. Inactive if not. | active or inactive | active | null |
