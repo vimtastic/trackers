@@ -47,8 +47,8 @@ The format is basically tab-separated values. However, some fields can contain c
 | ID          | Unique, sequential.                                            | Int                          | `123`              | `Twelve`<br> `7 ` (leading or trailing spaces) |
 | PrevID      | `null`, or ID of a product that has since been replaced.       | Int or `null`                | `null`<br>`123`    | As per ID                                      |
 | Status      | Active if the product is currently available. Inactive if not. | `active` or `inactive`       | `active`           | `null`                                         |
-| DateCreated | Date of record creation (not of product creation).             | ISO 8601 date string.        | `2017-31-10`       | `10/31/2017`                                   |
-| DateUpdated | Date of record update (not of product update).                 | ISO 8601 date string.        | `2017-31-10`       | `10/31/2017`                                   |
+| DateCreated | Date of record creation (not of product creation).             | ISO 8601 date string.        | <nobr>`2017-31-10`</nobr>  | `10/31/2017`                           |
+| DateUpdated | Date of record update (not of product update).                 | ISO 8601 date string.        | <nobr>`2017-31-10`</nobr>  | `10/31/2017`                           |
 | Parent      | Parent company of `corp`.                                      | String or `null`             | `null`             | `""`                                           |
 | Corp        | Corporation selling the product.                               | String                       | `Apple`            | `1`                                            |
 | Range       | Product range.                                                 | String or `null`             | `Health`<br>`null` | `""`<br>`123`                                  |
