@@ -55,6 +55,22 @@ The format is basically tab-separated values. However, some fields can contain c
 | Model       | Product model. This is how most people will refer to the item. | String NOT `null`            | `Flex`<br>`Ionic`  | `null`                                         |
 | Gen         | Model generation. If unknown use `null`                        | String or `null`             | `2`<br>`null`      | `large` (size)<br>`green` (colour)             |
 | Classes     | Broad classification.                                          | Comma-sep Strings NOT `null` | `wearable`         | `null`<br>`""`                                 |
-| SubClasses  | Finer classifiations.                                          | Comma-sep Strings NOT `null` | `band`<br>`scales` | `null`<br>`""`                                 |
+| SubClasses  | Finer classifiations.                                          | Comma-sep Strings NOT `null` | `band,watch`       | `null`<br>`""`                                 |
 | Functions   | Comma-separated IDs referring to entries in `functions.tsv`    | Comma-sep ints or `null`.    | `1,2,3`<br>`null`  | `1, 2, 3` (do not insert spaces)               |
 
+#### Classes and subclasses
+
+To be refined. For now, there are only a few valid options:
+
+  * class
+    * subclass
+
+  * appliance
+    * scales
+  * device
+    * phone
+    * watch
+  * wearable
+    * band
+
+Anything not matching these will be assigned a `null` class or subclass.
