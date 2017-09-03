@@ -1,2 +1,3 @@
 ID	PrevID	Status	DateCreated	DateUpdated	Parent	Corp	Range	Model	Gen	Classes	SubClasses	Functions
 1	null	active	2017-09-02	2017-09-02	null	FitBit	null	Ionic	null	wearable	band	1,2
+2	null	active	2017-09-02	2017-09-02	null	Polar	null	m400	null	wearable	band	1
