@@ -22,12 +22,9 @@ In the old entries, update the `ProdActive` field to be empty, and create new en
 
 Old entry:
 
-```
 |ProdID|	ProdPrevID|	ProdName|	ProdRange|	ProdGen|	ProdActive|	ProdDateCreated|	ProdDateUpdated|	CorpID|	CorpParentID|	CorpName|	Classes|	SubClasses|	Functions|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |1	|  |Body| | | |2017-09-01|2017-09-07|1|		|Withings|appliance|scales|1,2,3|
-
-```
 
 Updated and new entries:
 
