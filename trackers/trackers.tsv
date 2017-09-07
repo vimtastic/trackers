@@ -1,2 +1,2 @@
-ID	PrevID	Status	DateCreated	DateUpdated	Parent	Corp	Range	Model	Gen	Classes	SubClasses	Functions
-1	null	active	2017-09-02	2017-09-02	null	FitBit	null	Ionic	null	wearable	band	1,2
+ProdID	ProdPrevID	ProdName	ProdRange	ProdGen	ProdActive	ProdDateCreated	ProdDateUpdated	CorpID	CorpParentID	CorpName	Classes	SubClasses	Functions
+1		Flex	2	true	2017-09-02	2017-09-02	1		FitBit	wearable	watch,wristband	1,2,3
