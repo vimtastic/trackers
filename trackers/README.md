@@ -46,6 +46,6 @@ To be refined. For now, there are only a few valid options, in the format class 
       * scales
   * device
       * phone
-      * watch
   * wearable
-      * band
+      * watch
+      * wristband
