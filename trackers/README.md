@@ -36,7 +36,7 @@ Updated and new entries:
 
 ## File format
 
-The format is basically tab-separated values. However, some fields can contain comma-separated values. These fields are indicated by their names being plurals: `Classes`, `SubClasses`, and `Functions`.           |
+The format is basically tab-separated values. However, some fields can contain comma-separated values. These fields are indicated by their names being plurals: `Classes`, `SubClasses`, and `Functions`.
 
 #### Classes and subclasses
 
