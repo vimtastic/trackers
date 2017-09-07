@@ -24,14 +24,14 @@ Old entry:
 
 |ProdID|	ProdPrevID|	ProdName|	ProdRange|	ProdGen|	ProdActive|	ProdDateCreated|	ProdDateUpdated|	CorpID|	CorpParentID|	CorpName|	Classes|	SubClasses|	Functions|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|1	|  |Body| | | |2017-09-01|2017-09-07|1|		|Withings|appliance|scales|1,2,3|
+|1	|  |Body| | |TRUE|2017-09-01|2017-09-07|1|		|Withings|appliance|scales|1,2,3|
 
 Updated and new entries:
 
 |ProdID|	ProdPrevID|	ProdName|	ProdRange|	ProdGen|	ProdActive|	ProdDateCreated|	ProdDateUpdated|	CorpID|	CorpParentID|	CorpName|	Classes|	SubClasses|	Functions|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |1	|  |Body| | | |2017-09-01|2017-09-07|1|		|Withings|appliance|scales|1,2,3|
-|2	|1 |Body| | | |2017-09-09|2017-09-09|2|		|Nokia|appliance|scales|2,3,4|
+|2	|1 |Body| | |TRUE|2017-09-09|2017-09-09|2|		|Nokia|appliance|scales|2,3,4|
 
 
 ## File format
