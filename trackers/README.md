@@ -47,3 +47,4 @@ To be refined. For now, there are only a few valid options:
 | `appliance` | `scales` |
 | `device`    | `phone`  |
 | `wearable`  | `watch`<br>`wristband` |
+| `software`  | `app`<br>`web`<br>`desktop` |
