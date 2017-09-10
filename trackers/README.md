@@ -40,12 +40,10 @@ The format is basically tab-separated values. However, some fields can contain c
 
 #### Classes and subclasses
 
-To be refined. For now, there are only a few valid options, in the format class -> subclass:
+To be refined. For now, there are only a few valid options:
 
-  * appliance
-      * scales
-  * device
-      * phone
-  * wearable
-      * watch
-      * wristband
+| Class | Valid subclasses |
+|--|--|
+| `appliance` | `scales` |
+| `device`    | `phone`  |
+| `wearable`  | `watch`<br>`wristband` |
