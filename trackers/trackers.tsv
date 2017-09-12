@@ -1,2 +1,5 @@
-ProdID	ProdPrevID	ProdName	ProdRange	ProdGen	ProdActive	ProdPriceMin	ProdPriceMax	ProdDateCreated	ProdDateUpdated	CorpID	CorpParentID	CorpName	Classes	SubClasses	Functions
-1		Flex	2		TRUE	50	80	02/09/2017	07/09/2017	1		FitBit	wearable	watch,wristband	1,2,3
+ProdID	ProdPrevID	ProdName	ProdRange	ProdGen	ProdEdition	ProdActive	ProdPriceMin	ProdPriceMax	ProdDateCreated	ProdDateUpdated	CorpID	CorpParentID	CorpName	Classes	SubClasses	Functions
+1		Charge		2		TRUE	90	120	2017-09-12	2017-09-12	1		FitBit	wearable	wristband	1,2,3,4,5,7,8,17
+2		Charge		2	Lavendar	TRUE	160	160	2017-09-12	2017-09-12	1		FitBit	wearable	wristband	1,2,3,4,5,7,8,17
+3		Health Band				TRUE	40	100	2017-09-12	2017-09-12	2		Four Fit	wearable	wristband	2,6,8,9,10,11,12,13,14,15,16
+4		Fit Band				TRUE	20	50	2017-09-12	2017-09-12	2		Four Fit	wearable	wristband	2,5,6,7,8
