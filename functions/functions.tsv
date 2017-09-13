@@ -1,4 +1,18 @@
-ID	Name		AKA	Description
-1	heartrate	heart rate,bpm	null
-2	steps	step count,pedometer	null
-3	fat	body fat,percentage body fat	null
+ID	Name	AKA	Description
+1	heartrate monitor	heart rate,BPM	
+2	step counter	step count,pedometer	
+3	body fat	fat	An estimate of body fat, typically given as a percentage of overall mass.
+4	GPS	global positioning system	Useful to map a route, or to track speed and distance.
+5	Bluetooth		Allows wireless connectivity between devices. For example, to download data from a device.
+6	sleep tracker	sleep monitor	
+7	sedentary alarm	activity alarm	Reminds you to do some activity if you have been inactive for a while.
+8	calorie counter	calories	
+9	GPS via app		Uses an app on your phone to provide mapping or speed or distance tracking.
+10	blood pressure	BP	
+11	blood oxygen	oximeter	
+12	stopwatch		
+13	water resistant		
+14	fatigue analysis		
+15	sleep analysis		
+16	GPRS distance tracking		Uses your phone signal to estimate distance. Not as accurate as GPS.
+17	floors	floors climbed	
