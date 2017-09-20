@@ -1,5 +1,12 @@
 ProdID	ProdPrevID	ProdName	ProdRange	ProdGen	ProdEdition	ProdActive	ProdPriceMin	ProdPriceMax	ProdDateCreated	ProdDateUpdated	CorpID	CorpParentID	CorpName	Classes	SubClasses	Functions
-1		Charge		2		TRUE	90	120	2017-09-12	2017-09-12	1		FitBit	wearable	wristband	1,2,3,4,5,7,8,17
-2		Charge		2	Lavendar	TRUE	160	160	2017-09-12	2017-09-12	1		FitBit	wearable	wristband	1,2,3,4,5,7,8,17
-3		Health Band				TRUE	40	100	2017-09-12	2017-09-12	2		Four Fit	wearable	wristband	2,6,8,9,10,11,12,13,14,15,16
-4		Fit Band				TRUE	20	50	2017-09-12	2017-09-12	2		Four Fit	wearable	wristband	2,5,6,7,8
+1		Footlogger				TRUE	80	120	2017-09-15	2017-09-15	1		3L Labs			5,18
+2		Viiiiva		V100		TRUE	60	90	2017-09-15	2017-09-15	2		4iiii	device	wearable,chest strap	1,5
+3		miCoach	miCoach						2017-09-15	2017-09-15	3		Adidas	website		19,23,24
+4		Fit Smart	miCoach	M33704		TRUE	120	140	2017-09-16	2017-09-16	3		Adidas	device	wearable,watch	5,7
+5		Fit Smart	miCoach	M33704	L	TRUE	120	140	2017-09-16	2017-09-17	3		Adidas	device	wearable,watch	5,8
+6		Fit Smart	miCoach	M33705		TRUE	130	140	2017-09-16	2017-09-17	3		Adidas	device	wearable,watch	5,8
+7		Fit Smart	miCoach	M33705	L	TRUE	130	140	2017-09-16	2017-09-17	3		Adidas	device	wearable,watch	5,8
+8		Smart Run	miCoach			TRUE	210	270	2017-09-17	2017-09-17	3		Adidas	device	wearable,watch	1,4,22
+9		Fit Smart	miCoach		S	TRUE	80	120	2017-09-17	2017-09-17	3		Adidas	device	wearable,watch	1,5
+10		Fit Smart	miCoach		L	TRUE	90	140	2017-09-17	2017-09-17	3		Adidas	device	wearable,watch	1,5
+11		Speed Cell	miCoach			TRUE	40	50	2017-09-17	2017-09-17	3		Adidas	device	wearable,clip-on	25,26,27,28
